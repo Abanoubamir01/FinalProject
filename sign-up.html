@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up</title>
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="style.css">
+<body>
+    <div class="hero-image">
+        <div class="hero-text">
+            <div>
+                <img src="77c366436d8bd35fe8b3ce5b8c66992e.png" alt="Logo" id="logo">
+                </div>
+                <div>
+                    <pre style="font-family:fantasy" id="logoS">
+everything
+anytime
+anywhere
+                    </pre>
+                </div>
+                <div id="navbar">
+                    <a href="index(home).html"><i id="Home"></i> Home</a>
+                    <a href="shop.html"><i id="shop"></i> Shop</a>
+                    <a href="contact.html"><i id="Contact"></i> Contact</a>
+                    <a class="active" href="login.html"><i id="Login"></i> Login</a>
+                </div>
+                <br>
+                <div>
+                    <table border="0px" align="center"  
+                    id="sup"
+                    >
+                        <form onsubmit="return check()">
+                            <tr>
+                                <th colspan="2" style="color:black ;">
+                                    Sign-Up
+                                </th>
+                            </tr>
+                            <tr>
+                                <td style="color: rgb(0, 0, 0);">
+                                    First Name:
+                                </td>
+                                <td><input type="text" name="text" id="t" required></td>
+                            </tr>
+                            <tr>
+                                <td style="color: rgb(0, 0, 0);">
+                                    Last Name:
+                                </td>
+                                <td><input type="text" name="text" id="t" required></td>
+                            </tr>
+                            <tr>
+                                <td style="color: rgb(0, 0, 0);">
+                                    Gender:
+                                </td>
+                                <td>
+                                    <input type="radio" name="top" id="male" required>
+                                    <label for="male">Male</label><br>
+                                    <input type="radio" name="top" id="fmale" required>
+                                    <label for="fmale">Female</label> <br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="color: rgb(0, 0, 0);">
+                                    Birthdate:
+                                </td>
+                                <td>
+                                    <input type="date" name="date" id="date" required>
+                                </td>
+                            </fieldset>
+                            </tr>
+                            <tr>
+                                <td style="color: rgb(0, 0, 0);">
+                                    Email:
+                                </td>
+                                <td>
+                                    <input type="text" name="email" id="em" required>  
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="color: rgb(0, 0, 0);">
+                                    Username:
+                                </td>
+                                <td>
+                                    <input type="text" name="Username id="em" required>  
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="color: rgb(0, 0, 0);">
+                                    Password:
+                                </td>
+                                <td>
+                                    <input type="password" name="password" id="password" required>  
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="color: rgb(0, 0, 0);">
+                                    Address:
+                                </td>
+                                <td>
+                                    <input type="text" name="Address" id="ad" required>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="color: rgb(0, 0, 0);">
+                                    Phone number:
+                                </td>
+                                <td>
+                                    <input type="text" name="Phone number" id="phone" required>
+                                </td>
+                            </tr>
+                        <tr></tr>
+                        <tr></tr>
+                        <tr></tr>
+                        <tr>
+                            <td colspan="2"><input type="submit" value="Register" id="register"></td>
+                        </tr>
+                        </form>
+                            
+                    </table>
+                    <br>
+                </div>
+    </div>
+    <div class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#">Web design</a></li>
+                            <li><a href="#">Development</a></li>
+                            <li><a href="#">Hosting</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>About</h3>
+                        <ul>
+                            <li><a href="#">Company</a></li>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">Careers</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 item text">
+                        <h3>Company Name</h3>
+                        <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
+                    </div>
+                    <div class="col item social"><a href="https://www.facebook.com/"><i class="icon ion-social-facebook"></i></a><a href="https://twitter.com/home?lang=en"><i class="icon ion-social-twitter"></i></a><a href="https://www.snapchat.com/en-GB"><i class="icon ion-social-snapchat"></i></a><a href="https://www.instagram.com/"><i class="icon ion-social-instagram"></i></a></div>
+                </div>
+                <p class="copyright">Abanoub Amir © 2022</p>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>  
+    <script src="script.js"></script>
+</body>
+</html>
