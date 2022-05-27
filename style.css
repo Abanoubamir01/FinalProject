@@ -1,6 +1,7 @@
 body, html {
     height: 100%;
     margin: 0%;
+    
 }
 
 .hero-image {
@@ -337,4 +338,8 @@ pre{
   #cont{
     margin-left: 6%;
   }
+}
+body{
+  overflow-y: hidden;
+    overflow-x: hidden;
 }
