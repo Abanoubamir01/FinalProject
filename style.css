@@ -345,3 +345,9 @@ body{
   overflow-y: hidden;
     overflow-x: hidden;
 }
+@media screen and (max-width: 750px)
+{
+  .container{
+    width: 100%;
+  }
+}
